@@ -1,5 +1,14 @@
-# Working With Our Repositories
-## Submitting Code
+---
+layout: page
+title: Working With Our Repositories
+permalink: /working_with_our_repos
+---
+
+We've gone to great lengths to make our repos easy to work with.  This page gives you the info needed to successfully (and easily) work with our repos.  Hopefully most of this is just common sense, but worth calling out.
+
+{% include toc.md %}
+
+# Submitting Code
 The `main` branch is protected and requires a pull request (PR) to merge code (pushing directly to `main` will fail).  A pull request to `main` requires at least one review before it can be merged.  There are a couple of ways to do this:
 
 * Fork the repo, push changes and then submit a PR
@@ -7,13 +16,13 @@ The `main` branch is protected and requires a pull request (PR) to merge code (p
 
 Either of the above options will require you to receive at least one review (approving the PR) before your code can be merged.
 
-## Change Log and Comment Format
+# Change Log and Comment Format
 We prefer to standardize on using [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/) when generating change logs and creating comments on commits, PRs, etc.
 
-## Branches
+# Branches
 There are lots of branching strategies out there.  We don't dictate how to use branches, but leave this up to the project/repo maintainer(s) to decide how to use branches.  Each maintainer is able to select a branching strategy that they're most comfortable with.
 
-## Automated Checks
+# Automated Checks
 There are several checks which are setup by default.  These checks must successfully pass before a merge can be made.  Your repo will be setup to pass the checks.
 
 Here's what's needed to pass:
@@ -24,9 +33,13 @@ Here's what's needed to pass:
 
 * Include the proper copyright notice on the **first line**
 
-    Make sure that the following code is present: `Copyright (c) 2021 Oracle and/or its affiliates.`  It's also ok to use something like ``Copyright (c) 2000-2021 Oracle and/or its affiliates.` (a range of years, instead of a single year).  Both will pass just fine.  If this is missing, warnings will be raised and a comment made on the PR (notifying you of which file(s) is missing the copyright notice).
+    Make sure that the following code is present: `Copyright (c) 2021 Oracle and/or its affiliates.`  It's also ok to use something like `Copyright (c) 2000-2021 Oracle and/or its affiliates.` (a range of years, instead of a single year).  Both will pass just fine.  If this is missing, warnings will be raised and a comment made on the PR (notifying you of which file(s) is missing the copyright notice).
 
-## Forbidden File Changes
+* Block changes to protected files (see below).
+
+    There are several files/directories that should not be modified.  One Action checks to make sure that none of these files are modified in a PR... if so, it fails (and posts a comment to the PR stating why it failed).
+
+# Protected Files
 There are several files and/or directories that should not be modified (are prohibited from being modified):
 
 * `.github`
@@ -45,18 +58,27 @@ There are several files and/or directories that should not be modified (are proh
   
     The config needed by SonarCloud integration.  It's referenced by the automated pipeline, so is protected from modification.
 
-## Pre-Approved Licenses
-Just like most companies, we pride ourselves in top-notch open-source.  One of the key areas is ensuring a license is used that aligns with the goal of the organization.  There are a plethora of different licenses out there... we're not going to argue that one is better than the other, however we have selected some that best align with our goals.
+# Pre-Approved Licenses
+Just like most companies, we pride ourselves in top-notch open-source.  One of the key areas is ensuring a license is used that aligns with the goal of the organization.  There are a plethora of different licenses out there... we're not going to argue that one is better than the other, however we have selected some that best align with our goals.  Our repositories must align to using one (or more) of the pre-approved licenses.
 
-DRGHO repositories must align to using one (or more) of the pre-approved licenses.
+Pre-approved licenses for publishing (new repos):
 
-Pre-approved licenses:
+| [License Name](https://choosealicense.com/appendix/) | [SPDX ID](https://spdx.org/licenses/) |
+|--------------|---------|
+| [Universal Permissive License (UPL) version 1.0](https://choosealicense.com/licenses/upl-1.0/) | `UPL-1.0` |
 
-* Universal Permissive License (UPL) version 1.0
+Pre-approved licenses for 3rd-party libraries/components:
 
-## Releases and Tags
+| [License Name](https://choosealicense.com/appendix/) | [SPDX ID](https://spdx.org/licenses/) |
+|--------------|---------|
+| [Universal Permissive License (UPL) version 1.0](https://choosealicense.com/licenses/upl-1.0/) | `UPL-1.0` |
+| [MIT License](https://choosealicense.com/licenses/mit/) | `MIT` |
+| [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) | `Apache-2.0` |
+
+# Releases and Tags
 Just like branches, we don't dictate how tags will be used or how you manage your releases.  We do suggest using (and standardize on, though we don't enforce it) using [Semantic Versioning](https://semver.org) for your versioning strategy.
 
+## Auto-Generated Release Files
 When it comes to releases, we provide the ability to auto-generate (and upload) assets to the release.  Each time a release is *published*, an Action is triggered which will read the `release_files.json` file in the root of the repo.  This JSON file can specify one or more ZIP files to create and/or upload file(s) to the release.
 
 ### Sample Scenario

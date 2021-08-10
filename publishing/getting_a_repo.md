@@ -1,3 +1,9 @@
+---
+layout: page
+title: Getting a Repository
+permalink: /publishing/getting_a_repo
+---
+
 # Getting a Repository
 The Developer Relations team has strived to make the process as easy and fast as possible.  While the process isn't perfect, it does allow you to quickly move forward.
 
@@ -14,3 +20,7 @@ Don't work at Oracle, but have a great idea that you'd like to collaborate with 
 
 ## About Your New Repo
 The repo will come with public visibility, so there's nothing special to do to publish your work!  You'll be setup as a maintainer (along with the other people you've given as maintainers).  From there, you're ready to [start working with your repo](working_with_repos.md).
+
+
+<br /><br />
+[< Expectations](/publishing/expectations) \| [Working With Our Repositories >](/working_with_our_repos)

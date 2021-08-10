@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
 
 # Who Are We?
 We're a team within Oracle who is passionate around enabling developers to work with Oracle products and services.
