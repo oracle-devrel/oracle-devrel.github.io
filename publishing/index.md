@@ -12,5 +12,3 @@ permalink: /publishing
 
 * [Getting a Repository](getting_a_repo.md)
 * [Working With Our Repositories](working_with_repos.md)
-* [Writing and Style Guidelines](FIXME)
-* [Content Templates](FIXME)
