@@ -31,3 +31,6 @@ Temporary Items
 .crt
 .csr
 .pem
+
+# project-specific
+_site
