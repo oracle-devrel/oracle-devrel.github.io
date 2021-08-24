@@ -5,7 +5,7 @@ permalink: /publishing/how_we_do_it
 ---
 
 # Why Share?
-It's true that we don't need to be sharing the what/why/how of what we do, but we're big proponents for supporting the broader open-source community.  Who knows, maybe you'll find a useful nugget that might help you in your journey.  We hope so!
+It's true that we don't need to be sharing the what/why/how of what we do, but we're big proponents of supporting the broader open-source community.  Who knows, maybe you'll find a useful nugget that might help you in your journey.  We hope so!
 
 # Useful GitHub Actions
 Here are the community-developed GitHub Actions that we use:
