@@ -14,4 +14,4 @@ Before diving into getting a DevRel repo, here's what we ask (and expect) of you
 * Ideally there should be two or more maintainers for each repo (project). One person can't do everything (particularly the required code reviews), so having at least two maintainers is a very good idea.
 
 <br><br>
-[< How to Publish](/publishing) \| [Getting a Repository >](/publishing/getting_a_repo)
+[< [Where to Publish](where_to_publish.md) \| [Getting a Repository >](/publishing/getting_a_repo)
