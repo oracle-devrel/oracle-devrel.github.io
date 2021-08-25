@@ -18,11 +18,11 @@ To request a repo, send an email to your manager, asking for approval to publish
 
 We ask that you please provide at least one additional maintainer for each repo you create. This is good in keeping momentum for the project as well as providing coverage and support for the project when you're unavailable.
 
-Once you get the approval from your manager, please forward this to (or CC it to begin with) [this email](mailto:devrel-oss_ww@oracle.com).
+Once you get the approval from your manager, please forward this to (or CC it to begin with) [this email](mailto:devrel-opensource_ww@oracle.com).
 
 ### Non-Oracle Employees
 
-Don't work at Oracle, but have a great idea that you'd like to collaborate with us on? Terrific. We're excited to work with you - simply [send us an email](mailto:devrel-oss_ww@oracle.com) to start the conversation. :)
+Don't work at Oracle, but have a great idea that you'd like to collaborate with us on? Terrific. We're excited to work with you - simply [send us an email](mailto:devrel-opensource_ww@oracle.com) to start the conversation. :)
 
 ## About Your New Repo
 
