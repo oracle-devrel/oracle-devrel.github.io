@@ -29,4 +29,4 @@ Don't work at Oracle, but have a great idea that you'd like to collaborate with 
 The repo will come with public visibility, so there's nothing special to do to publish your work. You'll be set up as a maintainer (along with the other people you've requested as maintainers). From there, you're ready to [start working with your repo](/working_with_our_repos).
 
 <br><br>
-[< [Standards](standards.md) \| [Working With Our Repositories >](/working_with_our_repos)
+[< Standards](standards.md) \| [Working With Our Repositories >](/working_with_our_repos)

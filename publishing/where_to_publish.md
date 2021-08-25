@@ -17,4 +17,4 @@ Here's the "secret decoder ring" (of sorts) on where to publish:
 
 
 <br><br>
-[< Publishing](/publishing/) \| [What's Expected of You >](/publishing/expectations)
+[< Publishing](/publishing) \| [What's Expected of You >](/publishing/expectations)
