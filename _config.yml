@@ -43,7 +43,7 @@ header_pages:
   - publishing/working_with_repos.md
 header_links:
   -
-    img: assets/images/DevRel_Logo.png
+    img: /assets/images/DevRel_Logo.png
     img_alt: Oracle Developer Relations Logo
     url: /
     style: "width: 30px; height: 30px;"
@@ -52,7 +52,7 @@ header_links:
     url: https://developer.oracle.com
   - 
     title: Repositories
-    url: https://github.com/oracle-devrel
+    url: https://github.com/orgs/oracle-devrel/repositories
   
 minima:
   social_links:

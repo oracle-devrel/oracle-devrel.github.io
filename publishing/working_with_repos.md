@@ -25,6 +25,12 @@ We prefer to standardize on using [ConventionalCommits](https://www.conventional
 
 There are lots of branching strategies out there. We don't dictate how to use branches --- we leave this up to the project/repo maintainer(s) to decide how to use them. Each maintainer is able to select the branching strategy that they're most comfortable with.
 
+There are many different branching strategies (this list is by no means exhaustive):
+
+* [GitHub Flow](https://githubflow.github.io)
+* [git-flow](https://nvie.com/posts/a-successful-git-branching-model/)
+* [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
+
 # Automated Checks
 
 There are several checks which are setup by default. These checks must successfully pass before a merge can be made. Your repo will be set up to pass the checks.
@@ -35,12 +41,16 @@ Here's what's needed to pass:
 
 	You may use other licenses. However, until the project (repo) has been approved to use a non-pre-approved license, you will not be able to merge the PR (that's failing the license validation check).
 
-* Include the proper copyright notice on the **first line**
+* Include the proper copyright notice in the **first two lines**
 
 	Make sure that the following code is present: `Copyright (c) 2021 Oracle and/or its affiliates.`. It's also ok to use something like `Copyright (c) 2000-2021 Oracle and/or its affiliates.` (a range of years, instead of a single year). Both will pass just fine.
 
 	If this is missing, warnings will be raised and a comment made on the PR (notifying you of which file(s) are missing the copyright notice).
 
+* Check for required files
+
+  The `LICENSE`, `README.md` must be present.  These are provided as part of your repo (as it's provisioned). So long as they're not removed, there should be no issues.
+  
 * Block changes to protected files (see below).
 
 	There are several files/directories that should not be modified. One Action checks to make sure that none of these files are modified in a PR --- if they are, the PR fails (and posts a comment to the PR stating why it failed).
