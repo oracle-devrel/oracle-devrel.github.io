@@ -43,7 +43,7 @@ header_pages:
   - publishing/working_with_repos.md
 header_links:
   -
-    img: /assets/images/DevRel_Logo.png
+    img: /assets/images/DevRel_logo_new.jpg
     img_alt: Oracle Developer Relations Logo
     url: /
     style: "width: 30px; height: 30px;"
