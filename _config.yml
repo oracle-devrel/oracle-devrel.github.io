@@ -8,7 +8,7 @@ domain: oracle-devrel.github.io
 url: https://oracle-devrel.github.io
 # twitter_username: jekyllrb
 # github_username: oracle-devrel
-# slack_workspace: oracledevrel-learn
+# slack_workspace: oracledevrel
 # Build settings
 # remote_theme: pages-themes/slate@v0.2.0
 theme: minima
@@ -57,4 +57,4 @@ header_links:
 minima:
   social_links:
     github: oracle-devrel
-    slack: oracledevrel-learn
+    slack: oracledevrel
