@@ -8,6 +8,8 @@ permalink: /about/
 
 We're a team within Oracle who is passionate about enabling developers to work with Oracle products and services.
 
+[See our Team Page](http://developer.oracle.com/team)
+
 # Our Goals
 
 We:
