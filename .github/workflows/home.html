@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /
+---
+
+<h2>Featured Projects</h2>
+<p>We're busy working on a lot of exciting stuff. Here are a few highlights, though this is just a glimpse. Check out <a href="https://github.com/orgs/oracle-devrel/repositories">our repos</a> for more info:</p>
+<ul>
+{% for proj in site.data.projects %}
+<li>
+  <p><a href="{{ proj.link }}">{{ proj.name }}</a></p>
+  <p>{{ proj.desc }}</p>
+</li>
+{% endfor %}
+</ul>
+
+<h2>Getting Started</h2>
+<p>Can't wait to get started? Check out our <a href="/publishing">publishing section</a> which will step you through how to get a repository, how to work with Oracle Developer Relations repositories, and more.</p>
+
+<h2>About Us</h2>
+<p>Curious who we are? Why are we doing what we're doing? Why is the sky blue? Well, we won't be answering the last question, but learn more about our team <a href="about">here</a>.</p>

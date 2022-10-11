@@ -1,0 +1,9 @@
+- name: RedBull Honda Racing and Oracle Analytics Hands-on-Lab
+  link: https://github.com/oracle-devrel/redbull-analytics-hol
+  desc: Learn machine learning the fun way, with Oracle and RedBull Honda Racing.
+- name: Eff Uno Racer
+  link: https://github.com/oracle-devrel/eff-uno-racer
+  desc: Build an Oracle Cloud Infrastructure-controlled Raspberry Pi and Arduino powered open-wheel race car made with plastic bricks.
+- name: Using Open Policy Agent with OCI
+  link: https://github.com/oracle-devrel/oci-pac-opa
+  desc: How to secure OCI using Open Policy Agent.
